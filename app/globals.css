@@ -1,33 +1,33 @@
 :root {
-  --primaria: #c9a227;      /* dourado Grupo BRID (D16 — paleta da marca) */
-  --primaria-claro: #faf3dd;
+  --primaria: #2b5578;      /* azul-marinho da nova marca */
+  --primaria-claro: #e8eef3;
   --verde-fia: var(--primaria);        /* telas herdadas re-tematizadas */
   --verde-claro: var(--primaria-claro);
-  --cinza: #667085;
-  --borda: #d8dee3;
-  --escuro: #14120d;        /* preto quente da marca — navbar e header (fixo, não muda com o tema) */
+  --cinza: #64748b;
+  --borda: #d7dee5;
+  --escuro: #14283b;        /* azul-marinho escuro da marca — navbar e header (fixo, não muda com o tema) */
 
   /* D22: variáveis de tema — modo claro (padrão) */
-  --bg: #f5f6f7;
+  --bg: #f4f6f8;
   --bg-card: #ffffff;
-  --bg-suave: #fafbfc;
-  --texto: #1c2126;
-  --texto-suave: #33383d;
+  --bg-suave: #f8fafb;
+  --texto: #1a2530;
+  --texto-suave: #38434d;
   --input-bg: #ffffff;
-  --track: #e2e8f0;
+  --track: #e4e9ee;
 }
 
 [data-theme="dark"] {
-  --primaria-claro: #2a2410;
-  --cinza: #a39c8a;
-  --borda: #3a3529;
-  --bg: #0f0e0b;
-  --bg-card: #1c1a14;
-  --bg-suave: #221f18;
-  --texto: #f0ede4;
-  --texto-suave: #c9c4b6;
-  --input-bg: #221f18;
-  --track: #3a3529;
+  --primaria-claro: #1c2f3f;
+  --cinza: #94a3b8;
+  --borda: #2c3e4f;
+  --bg: #0d1620;
+  --bg-card: #16232e;
+  --bg-suave: #18242f;
+  --texto: #eef2f5;
+  --texto-suave: #c7d1da;
+  --input-bg: #18242f;
+  --track: #2c3e4f;
 }
 
 * {
@@ -364,7 +364,7 @@ textarea {
   align-items: center;
   justify-content: center;
   gap: 24px;
-  background: #111;
+  background: #0d1620;
   padding: 40px 20px 24px;
   text-align: center;
 }
@@ -380,7 +380,7 @@ textarea {
   font-weight: 700;
   font-size: 13px;
   letter-spacing: .35em;
-  color: #E8C65B;
+  color: #7ea3c2;
   text-transform: uppercase;
 }
 .landing-titulo {
@@ -403,8 +403,8 @@ textarea {
 .landing-cta {
   display: inline-block;
   margin-top: 10px;
-  background: #E8C65B;
-  color: #181511;
+  background: #7ea3c2;
+  color: #0d1620;
   font-family: var(--fonte-titulo), sans-serif;
   font-weight: 700;
   font-size: 14px;
@@ -418,7 +418,7 @@ textarea {
 }
 .landing-cta:hover { transform: translateY(-2px); opacity: .92; }
 .landing-atalhos { display:flex; gap:12px; flex-wrap:wrap; justify-content:center; }
-.landing-cta.secundario { background:transparent; color:#E8C65B; border:1px solid #E8C65B; }
+.landing-cta.secundario { background:transparent; color:#7ea3c2; border:1px solid #7ea3c2; }
 .landing-rodape {
   color: #69727d;
   font-size: 12px;

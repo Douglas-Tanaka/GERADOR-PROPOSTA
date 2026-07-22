@@ -20,10 +20,10 @@ export default function PaginaInicial() {
   return (
     <main className="landing">
       <div className="landing-conteudo">
-        <Image src="/logo.svg" alt="GRUPO BRID" width={72} height={72}
+        <Image src="/logo-light.svg" alt="Logo" width={72} height={72}
           style={{ borderRadius: 14 }} priority />
 
-        <span className="landing-marca">GRUPO BRID</span>
+        <span className="landing-marca">DT PORTIFOLIO</span>
 
         <h1 className="landing-titulo">
           Somos especialistas em<br />impulsionar negócios!
@@ -46,7 +46,7 @@ export default function PaginaInicial() {
       </div>
 
       <footer className="landing-rodape">
-        comercial@grupobrid.com · +55 (11) 3804-1136 — uso interno · © {new Date().getFullYear()} GRUPO BRID
+        uso interno · © {new Date().getFullYear()} DT PORTIFOLIO
       </footer>
     </main>
   );

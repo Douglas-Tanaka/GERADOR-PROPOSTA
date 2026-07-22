@@ -26,7 +26,7 @@ const antonio = Antonio({
 });
 
 export const metadata: Metadata = {
-  title: "Gerador de Propostas — GRUPO BRID",
+  title: "Gerador de Propostas — DT PORTIFOLIO",
   description: "Follow-up, análise de TR e geração de propostas e ofícios",
   icons: {
     icon: "/logo.svg",

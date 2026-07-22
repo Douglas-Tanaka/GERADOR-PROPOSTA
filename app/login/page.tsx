@@ -71,7 +71,7 @@ function LoginForm() {
           </button>
           {erro && <p className="erro-texto">{erro}</p>}
         </form>
-        <p style={{ fontSize: 12, color: "#667085", marginTop: 16 }}>
+        <p style={{ fontSize: 12, color: "var(--cinza)", marginTop: 16 }}>
           Não tem uma conta? Peça a um administrador do sistema para criar seu acesso.
         </p>
       </div>
