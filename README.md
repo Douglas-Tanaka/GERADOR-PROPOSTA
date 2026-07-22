@@ -1,4 +1,4 @@
-# GRUPO BRID — Gerador de Propostas e Gestão de Processos
+# Gerador de Propostas e Gestão de Processos
 
 Sistema web de gestão de processos de propostas para entes públicos: cadastro de
 órgãos (clientes), abertura e acompanhamento de processos por fases (Follow-up),
